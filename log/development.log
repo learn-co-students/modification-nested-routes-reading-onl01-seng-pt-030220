@@ -3742,3 +3742,318 @@ Processing by PostsController#show as HTML
   [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 2]]
   Rendered posts/show.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.1ms)
+Started GET "/" for ::1 at 2020-08-08 13:28:48 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (11.8ms)
+Completed 200 OK in 56ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for ::1 at 2020-08-08 13:29:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.5ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.8ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_sincerelybrittt__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___4332080974205756566_70357673174160 at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.3ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (100.1ms)
+Started GET "/auth/github" for ::1 at 2020-08-08 13:29:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/auth/github"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_sincerelybrittt__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___4332080974205756566_70357680498600 at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.9ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (50.1ms)
+Started GET "/authors" for ::1 at 2020-08-08 13:29:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/authors"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_sincerelybrittt__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___4332080974205756566_70357680654820 at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.1ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (15.5ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (69.8ms)
+Started GET "/posts" for ::1 at 2020-08-08 13:29:23 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.8) lib/rack/handler/webrick.rb:86:in `service'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/sincerelybrittt/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_sincerelybrittt__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___4332080974205756566_70357677801180 at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.8ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (67.4ms)
+Started GET "/posts" for ::1 at 2020-08-08 13:29:53 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mAuthor Load (0.2ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.2ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.2ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered posts/index.html.erb within layouts/application (59.2ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 2.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    2: <% @posts.each do |post| %>
+    3:   <div>
+    4:     <h2><%= post.title %></h2>
+    5:     <h3>by: <%= link_to post.author.name, author_posts_path(post.author) %></h3>
+    6:     <p><%= post.description %></p>
+    7:   </div>
+    8: <% end %>
+  
+app/views/posts/index.html.erb:5:in `block in _app_views_posts_index_html_erb__338748434720424088_70357674753640'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__338748434720424088_70357674753640'
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.7ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.3ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_sincerelybrittt__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___4332080974205756566_70357677488440 at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (27.2ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (59.7ms)
+Started GET "/posts" for ::1 at 2020-08-08 13:30:16 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mAuthor Load (0.2ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.2ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered posts/index.html.erb within layouts/application (10.6ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    2: <% @posts.each do |post| %>
+    3:   <div>
+    4:     <h2><%= post.title %></h2>
+    5:     <h3>by: <%= link_to post.author.name, author_posts_path(post.author) %></h3>
+    6:     <p><%= post.description %></p>
+    7:   </div>
+    8: <% end %>
+  
+app/views/posts/index.html.erb:5:in `block in _app_views_posts_index_html_erb__338748434720424088_70357680487400'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__338748434720424088_70357680487400'
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.7ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_sincerelybrittt__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___4332080974205756566_70357677846020 at /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.7ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendering /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sincerelybrittt/.rvm/gems/ruby-2.6.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (57.6ms)
